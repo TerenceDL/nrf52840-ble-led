@@ -1,0 +1,14 @@
+[package]
+name = "nrf52840_led_gui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# GTK4 crate is commonly renamed to gtk :contentReference[oaicite:3]{index=3}
+gtk = { package = "gtk4", version = "0.9", features = ["v4_12"] }
+
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "time", "sync"] }
+btleplug = "0.11"
+uuid = "1"
+anyhow = "1"
+

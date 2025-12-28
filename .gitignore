@@ -1,0 +1,15 @@
+# Rust build output
+/target
+**/target
+
+# Embedded outputs
+*.elf
+*.hex
+*.bin
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
